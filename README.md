@@ -15,7 +15,7 @@ J'ai choisi une libbrairie FastAPI car c'est plus simple et je propose une solut
 ## Structure du projet
 
 ```
-ProjetNBADATA/
+nba_project/
 │
 ├── app/
 │   ├── __init__.py
@@ -72,8 +72,6 @@ Si tout est correct, tu verras :
 ```
 INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 ```
-
-Viusaliser sur streamilit : python -m streamlit run streamilit.py
 
 ---
 
@@ -141,6 +139,17 @@ Tu y trouveras :
 
 
 ---
+## Visualisation avec Streamlit
+
+Vous avez la possiblité de remplir les champs et de visualiser les prédictions avec une interface Streamlit connectée à l'API FastAPI pour une bonne visualisation UI.
+
+Exécutez le fichier streamlit.py :
+
+```bash
+python -m streamlit run streamlit.py
+```
+---
+
 
 ##  Description du modèle
 
